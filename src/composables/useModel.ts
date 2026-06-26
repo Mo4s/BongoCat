@@ -17,7 +17,7 @@ import live2d from '../utils/live2d'
 
 const appWindow = getCurrentWebviewWindow()
 const digitKeys = '1234567890'.split('') as readonly string[]
-const letterKeys = 'QWERTYUIOPASDFGHJKLZXCVBNM'.split('') as readonly string[]
+const letterKeys = 'QWERTYUIOPASDFGHJKLZXCVBNM<|'.split('') as readonly string[]
 
 export interface ModelSize {
   width: number
